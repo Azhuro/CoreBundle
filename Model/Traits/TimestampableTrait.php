@@ -3,7 +3,7 @@
  * (c) Johnny Cottereau <johnny.cottereau@gmail.com>
  */
 
-namespace CoreBundle\Model\Traits;
+namespace Azhuro\Bundle\CoreBundle\Model\Traits;
 
 trait TimestampableTrait
 {

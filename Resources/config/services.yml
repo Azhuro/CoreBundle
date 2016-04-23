@@ -1,5 +1,5 @@
 parameters:
-   core.event.subscriber.timestampable_subscriber.class: 'CoreBundle\Event\Subscriber\TimestampableSubscriber'
+   core.event.subscriber.timestampable_subscriber.class: 'Azhuro\Bundle\CoreBundle\Event\Subscriber\TimestampableSubscriber'
 
 services:
     core.event.subscriber.timestampable_subscriber:

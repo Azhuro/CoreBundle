@@ -3,9 +3,9 @@
  * (c) Johnny Cottereau <johnny.cottereau@gmail.com>
  */
 
-namespace CoreBundle\Event\Subscriber;
+namespace Azhuro\Bundle\CoreBundle\Event\Subscriber;
 
-use CoreBundle\Model\Interfaces\TimestampableInterface;
+use Azhuro\Bundle\CoreBundle\Model\Interfaces\TimestampableInterface;
 use Doctrine\Common\EventSubscriber;
 use Doctrine\ORM\Event\LifecycleEventArgs;
 
