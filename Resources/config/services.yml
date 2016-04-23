@@ -1,0 +1,8 @@
+parameters:
+   core.event.subscriber.timestampable_subscriber.class: 'CoreBundle\Event\Subscriber\TimestampableSubscriber'
+
+services:
+    core.event.subscriber.timestampable_subscriber:
+        class: '%core.event.subscriber.timestampable_subscriber.class%'
+        tags:
+            - { name: doctrine.event_subscriber }
